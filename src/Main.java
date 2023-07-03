@@ -16,7 +16,7 @@ public class Main {
         } catch (WrongLoginException | WrongPasswordException e) {
             e.printStackTrace();
         } finally {
-            System.out.println("Проверка проведена");
+            System.out.println(" Проверка проведена");
         }
     }
     private static void checkLogin(String login) throws WrongLoginException {
